@@ -9,13 +9,13 @@ const sideItems = [
   },
   {
     id: 2,
-   img: "images/subbanner2.png",
+    img: "images/subbanner2.png",
     title: "Best Gift Shop for You.",
     bg: "bg-[#1a1a1a]",
   },
   {
     id: 3,
-   img: "images/subbanner3.png",
+    img: "images/subbanner3.png",
     title: "RC Robot Dog",
     bg: "bg-[#1a1a1a]",
   },
@@ -37,7 +37,7 @@ const BannerSection: React.FC = () => {
             <img src="/images/bannerImage.png" className="h-full object-cover" alt="banner-image" />
           </div>
           {/* side cards */}
-          <div className="flex bg-black p-3 rounded-[20px] flex-wrap flex-row lg:flex-col gap-2 sm:gap-3 lg:w-48 xl:w-56 2xl:w-64">
+          <div className="flex bg-black p-3 rounded-[20px] flex-wrap max-[1020px]:flex-col flex-row lg:flex-col gap-2 sm:gap-3 lg:w-48 xl:w-56 2xl:w-64">
             {sideItems.map((item) => (
               <div
                 key={item.id}

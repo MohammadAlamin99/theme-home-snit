@@ -27,12 +27,12 @@ export default function FlashProductCard({ product }: { product: Product }) {
           onClick={(e) => { e.stopPropagation(); setWished(!wished); }}
           className="absolute top-2 left-2 z-10 w-10 h-10 flex items-center justify-center cursor-pointer"
         >
-          <Heart color="#E72960" className="w-4 h-4 lg:h-9 lg:w-9"/>
+          <Heart color="#E72960" className="w-4 h-4 lg:h-9 lg:w-9" />
         </button>
 
         {/* Book image */}
         <div className="w-full aspect-[3/4] bg-white flex items-center justify-center">
-        <img src="/images/product.png" alt="" />
+          <img src="/images/product.png" alt="" />
         </div>
       </div>
 

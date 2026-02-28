@@ -31,7 +31,7 @@ const CategorySection = () => {
           </h2>
           <button className="cursor-pointer flex items-center gap-1 text-xs sm:text-[16px] font-lato font-medium text-[#0F0E0E] hover:text-gray-900 transition-colors duration-200 group">
             View More
-            <ChevronRight width={12} height={12} color="#1E90FF"/>
+            <ChevronRight width={12} height={12} color="#1E90FF" />
           </button>
         </div>
 
@@ -44,7 +44,7 @@ const CategorySection = () => {
           ))}
         </div>
 
-       {/* mobile version category */}
+        {/* mobile version category */}
         <div className="block lg:hidden">
           <Swiper
             spaceBetween={12}

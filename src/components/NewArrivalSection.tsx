@@ -39,19 +39,19 @@ const NewArrivalSection = () => {
           </h2>
 
           <div className="flex items-center gap-4">
-             <button className="cursor-pointer flex items-center gap-1 text-xs sm:text-[16px] font-lato font-medium text-[#0F0E0E] group">
-            View More
-            <ChevronRight width={12} height={12} color="#1E90FF"/>
-          </button>
+            <button className="cursor-pointer flex items-center gap-1 text-xs sm:text-[16px] font-lato font-medium text-[#0F0E0E] group">
+              View More
+              <ChevronRight width={12} height={12} color="#1E90FF" />
+            </button>
           </div>
         </div>
 
         {/* product grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-0 md:gap-4 xl:gap-5">
-  {products.map((product) => (
-    <DesktopProductCard key={product.id} product={product} />
-  ))}
-</div>
+          {products.map((product) => (
+            <DesktopProductCard key={product.id} product={product} />
+          ))}
+        </div>
 
       </div>
     </section>

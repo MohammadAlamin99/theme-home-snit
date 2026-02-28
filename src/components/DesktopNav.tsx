@@ -36,7 +36,7 @@ export default function DesktopNav() {
                 </div>
 
                 {/* Right Section */}
-               <div className="flex items-center gap-8 flex-shrink-0">
+                <div className="flex items-center gap-8 flex-shrink-0">
                     <img src="/images/translate.svg" alt="Translate" width={32} height={32} className="cursor-pointer" />
                     <img src="/images/shopping-cart-02.svg" alt="Cart" width={32} height={32} className="cursor-pointer" />
 

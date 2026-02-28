@@ -28,7 +28,7 @@ const books: Book[] = [
     discountedPrice: 4.53,
     discountPercent: 10,
     coins: 10,
-     coverImage: "/images/product.png",
+    coverImage: "/images/product.png",
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const books: Book[] = [
     discountedPrice: 4.53,
     discountPercent: 10,
     coins: 10,
-     coverImage: "/images/product.png",
+    coverImage: "/images/product.png",
   },
   {
     id: 4,
@@ -53,10 +53,10 @@ const books: Book[] = [
 const BookCard: React.FC<{ book: Book }> = ({ book }) => {
   return (
     <div className="relative flex flex-row items-center gap-4 bg-white rounded-2xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-200 cursor-pointer flex-1 min-w-0">
-       {/* Discount badge */}
-        <div className="absolute rounded-[8px]  md:text-xl top-2 right-2 z-10 bg-[#FF3C3C26] font-inter text-[#DA0000] text-xs lg:text-2xl font-bold px-2 py-1 rounded-full">
-          -{book.discountPercent}%
-        </div>
+      {/* Discount badge */}
+      <div className="absolute rounded-[8px]  md:text-xl top-2 right-2 z-10 bg-[#FF3C3C26] font-inter text-[#DA0000] text-xs lg:text-2xl font-bold px-2 py-1 rounded-full">
+        -{book.discountPercent}%
+      </div>
 
       {/* Book Cover */}
       <div className="flex-shrink-0 w-20 h-28 rounded-lg overflow-hidden shadow-md">
@@ -100,10 +100,10 @@ const RecentlyViewed: React.FC = () => {
           </h2>
 
           <div className="flex items-center gap-4">
-             <button className="cursor-pointer flex items-center gap-1 text-xs sm:text-[16px] font-lato font-medium text-[#0F0E0E] group">
-            View More
-            <ChevronRight width={12} height={12} color="#1E90FF"/>
-          </button>
+            <button className="cursor-pointer flex items-center gap-1 text-xs sm:text-[16px] font-lato font-medium text-[#0F0E0E] group">
+              View More
+              <ChevronRight width={12} height={12} color="#1E90FF" />
+            </button>
           </div>
         </div>
 
