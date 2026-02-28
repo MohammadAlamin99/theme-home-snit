@@ -77,6 +77,8 @@ const FlashSaleSection = () => {
           />
 
           <Swiper
+            navigation
+            pagination={{ clickable: true }}
             spaceBetween={12}
             slidesPerView={2}
             breakpoints={{

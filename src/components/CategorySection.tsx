@@ -2,7 +2,6 @@
 
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import type { Category } from "./CategoryCard";
@@ -48,7 +47,6 @@ const CategorySection = () => {
        {/* mobile version category */}
         <div className="block lg:hidden">
           <Swiper
-            modules={[Pagination]}
             spaceBetween={12}
             slidesPerView={3}
             breakpoints={{
